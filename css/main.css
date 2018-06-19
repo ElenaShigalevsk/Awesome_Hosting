@@ -1,0 +1,249 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+
+}
+.header{
+min-height: 100px;
+width: 100%;
+margin:auto 0;
+}
+.logo{
+	height: 30px;
+	margin-top: 33px;
+}
+.email-text{
+	color: #9ba4b0;
+	float: left;
+}
+.reg{
+	background-image: url("../image/logo-bg.png");
+	border-bottom: 1px #e1e9f2 solid;
+	margin-top: 27px;
+	height: 44px;
+	padding-top: 10px;
+	padding-left: 44px;
+}
+
+.reg a{
+	padding-left: 35px;
+	text-decoration: none;
+	color: #484e57;
+}
+
+.navbar-nav{
+	background-color: #ff8261;
+	color: #fff;
+	width: 100%;
+}
+.navbar-default .navbar-nav > li > a{
+	color:#fff;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus{
+	background-color: #52cbf8;
+	color:#fff;
+}
+.container-fluid, 
+.container > .navbar-collapse, .container-fluid > .navbar-collapse{
+	padding: 0;
+	margin: 0;
+}
+
+.navbar-default{
+	margin-bottom: 0;
+    border-bottom: 0;
+}
+
+
+
+
+.sliders{
+    margin-top: 0;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+}
+.sliders-h3{
+	font-size: 35px;
+	text-transform: uppercase;
+}
+.sliders-text{
+	font-size: 15px;
+	text-transform: uppercase;
+}
+.carousel-indicators .active{
+border-color: #ff8261;
+background-color:rgba(0, 0, 0, .0001);
+}
+.carousel-indicators li{
+	border-color: #5278db;
+}
+.carousel-inner{
+height: 450px;
+}
+
+.form-domain{
+	width: 100%;
+	min-height: 200px;
+	background-color: #e7f4f8;
+}
+.forma-input{
+	width: 100%;
+	height: 50px;
+	border: #dfeef3 1px solid;
+}
+.forma-span{
+	width: 100%;
+	height: 50px;
+	border: #dfeef3 1px solid;
+	padding-left: 10px;
+    color: #a0a9b6;
+    font-size: 13.5px;
+
+}
+.forma-domain{
+    padding-top: 5%;
+}
+.btn-search{
+	background-color: #ff8261;
+	border-radius: 0;
+	height: 50px;
+	color: #fff;
+}
+.form-inline{
+    padding-top: 3%;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    padding-left: 10px;
+    color: #a0a9b6;
+    font-size: 13.5px;
+
+}
+::-moz-placeholder { /* Firefox 19+ */
+    padding-left: 10px;
+    color: #a0a9b6;
+    font-size: 13.5px;
+}
+:-ms-input-placeholder { /* IE 10+ */
+    padding-left: 10px;
+    color: #a0a9b6;
+    font-size: 13.5px;
+}
+:-moz-placeholder { /* Firefox 18- */
+    padding-left: 10px;
+    color: #a0a9b6;
+    font-size: 13.5px;
+}
+.img-ben{
+	float: left;
+
+}
+.row-ben{
+	min-height: 100px;
+	overflow: hidden;
+	text-overflow: clip;
+	margin-bottom: 60px;
+}
+.h3-ben{
+	font-size: 16px;
+	text-transform: uppercase;
+	margin-top: 0;
+}
+.text-ben{
+	font-size: 12px;
+}
+.text-benefits{
+	font-size: 18px;
+	text-transform: uppercase;
+}
+.benefits{
+	font-size: 31px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.image-ben{
+	padding-top: 65px;	
+}
+.sale{
+	background-color: #fffbde;
+	padding-top: 75px;
+	padding-bottom: 100px;
+}
+.text-sale{
+	font-size: 18px;
+	text-transform: uppercase;
+}
+.span-sale{
+	font-size: 30px;
+	text-transform: uppercase;
+}
+ul.ul-sale {
+  list-style-type: none;
+}
+ul.ul-sale li {
+  list-style-image: url("../image/chevron-right.svg");
+  font-size: 12px;
+    line-height: 30px;
+}
+.ul-hosting{
+	list-style: none;
+	padding-left: 0;
+}
+.ul-hosting li{
+	border-bottom: #f0f4f7 1px solid;
+	text-align: center;
+	font-size: 14px;
+	color: #8d9198;
+	padding-top: 5px;
+    padding-bottom: 5px;
+}
+.btn-hosting{
+	border-radius: 0;
+	background-color: #52cbf8;
+	color: #fff;
+	font-size: 14px;
+	margin: 0 auto;
+	display: block;
+	margin-top: 30px;
+	margin-bottom: 45px;
+	text-transform: uppercase;
+}
+.btn-signup{
+	border-radius: 0;
+	background-color: #ff8261;
+	color: #fff;
+	font-size: 13px;
+	margin: 0 auto;
+	display: block;
+	margin-top: 25px;
+	text-transform: uppercase;
+}
+.standart{
+	border:#f0f4f7 1px solid;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+.standart span{
+	font-size: 45px;
+	font-weight: bold;
+}
+.standart p{
+	text-align: center;
+	text-transform: uppercase;
+}
+.hosting{
+	padding-top: 80px;
+}
+.footer{
+	background-color: #4c515b;
+	min-height: 385px;
+}
+.footer p{
+	font-size: 11px;
+	color: #909aad;
+	padding-left: 55px;
+}
+.footer-ul{
+	float: left;
+}
